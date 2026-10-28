@@ -1,0 +1,54 @@
+name: Ingest
+
+# Runs only once the repository variable INGEST_ENABLED is "true" and the
+# DATABASE_URL and YOUTUBE_API_KEY secrets exist (see DEPLOY.md).
+on:
+  schedule:
+    - cron: "*/10 * * * *" # live: today's matches at tournaments in progress
+    - cron: "17 * * * *" # recent results and YouTube, hourly
+    - cron: "41 3 * * *" # calendar, daily
+  workflow_dispatch:
+    inputs:
+      job:
+        description: Job to run
+        type: choice
+        options: [live, recent, youtube, calendar, relink]
+        default: youtube
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    if: vars.INGEST_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      SCHEDULE: ${{ github.event.schedule }}
+      INPUT_JOB: ${{ inputs.job }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Choose jobs
+        run: |
+          case "$SCHEDULE" in
+            "*/10 * * * *") jobs="live" ;;
+            "17 * * * *") jobs="recent youtube" ;;
+            "41 3 * * *") jobs="calendar" ;;
+            *) jobs="$INPUT_JOB" ;;
+          esac
+          echo "JOBS=$jobs" >> "$GITHUB_ENV"
+      - run: pnpm db:migrate
+      - name: Run
+        run: for job in $JOBS; do pnpm ingest "$job"; done

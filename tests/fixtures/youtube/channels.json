@@ -1,0 +1,164 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "TZHhDicNdCcYtew22sQ_VJqsWxE",
+  "pageInfo": {
+    "totalResults": 4,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "4CYm5bPAUVzhFBZMwUBI_2pEtz0",
+      "id": "UChh-akEbUM8_6ghGVnJd6cQ",
+      "snippet": {
+        "title": "BWF TV",
+        "description": "BWF TV is the official live channel of the Badminton World Federation (BWF), where we bring to you live, catch-up and delayed streaming of the major events on our calendar such as the HSBC BWF World Tour and the TotalEnergies BWF World Championships.\n\nOn this channel we will bring the badminton community the most current news, highlights, features and information. We upload every week and daily throughout a tournament so subscribe to ensure you don’t miss out! http://smarturl.it/BWFsubscribe \n    \nBWF TV helps fans connect and share their love of badminton and aims to bring the sport onto a global stage.",
+        "customUrl": "@bwf",
+        "publishedAt": "2006-04-06T17:10:50Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/LPf6i18yJy-Ly-co_16dQmxM2DClbrr-qKuWRouL3Oi2it9guteINFQRREwz24Tzeom7xFN8=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/LPf6i18yJy-Ly-co_16dQmxM2DClbrr-qKuWRouL3Oi2it9guteINFQRREwz24Tzeom7xFN8=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/LPf6i18yJy-Ly-co_16dQmxM2DClbrr-qKuWRouL3Oi2it9guteINFQRREwz24Tzeom7xFN8=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "BWF TV",
+          "description": "BWF TV is the official live channel of the Badminton World Federation (BWF), where we bring to you live, catch-up and delayed streaming of the major events on our calendar such as the HSBC BWF World Tour and the TotalEnergies BWF World Championships.\n\nOn this channel we will bring the badminton community the most current news, highlights, features and information. We upload every week and daily throughout a tournament so subscribe to ensure you don’t miss out! http://smarturl.it/BWFsubscribe \n    \nBWF TV helps fans connect and share their love of badminton and aims to bring the sport onto a global stage."
+        },
+        "country": "MY"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUhh-akEbUM8_6ghGVnJd6cQ"
+        }
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "feRHsAE3QQU2_ZbUWi2sLODFKC4",
+      "id": "UCVWheF3rns7z5jNS2luqOyQ",
+      "snippet": {
+        "title": "Badminton Asia",
+        "description": "Badminton Asia is the governing body of the badminton sport in Asia under the flagship of Badminton World Federation (BWF). Badminton Asia is currently represented by 43 member associations from 5 sub-regions all across Asia.\n\nhttp://badmintonasia.org/",
+        "customUrl": "@badmintonasia",
+        "publishedAt": "2013-02-18T14:26:07Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_lqvRjOfvLsonL5DjCwMs6EaCw0-gzzWySFgW8aHstY7ec=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_lqvRjOfvLsonL5DjCwMs6EaCw0-gzzWySFgW8aHstY7ec=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_lqvRjOfvLsonL5DjCwMs6EaCw0-gzzWySFgW8aHstY7ec=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Badminton Asia",
+          "description": "Badminton Asia is the governing body of the badminton sport in Asia under the flagship of Badminton World Federation (BWF). Badminton Asia is currently represented by 43 member associations from 5 sub-regions all across Asia.\n\nhttp://badmintonasia.org/"
+        },
+        "country": "MY"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUVWheF3rns7z5jNS2luqOyQ"
+        }
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "liF2NWuu_duvntxh_RkdFxtJPtM",
+      "id": "UCKKVmSr0-nktD2CFXATNkYw",
+      "snippet": {
+        "title": "Badminton Europe",
+        "description": "Welcome to Badminton Europe Confederation's Official YouTube Channel where we bring to you delayed streaming and interviews of our major events on our calendar such as the European Championships and the tournaments of the Badminton Europe Circuit. Follow us on www.badmintoneurope.com",
+        "customUrl": "@badmintoneuropeconf",
+        "publishedAt": "2010-09-15T12:23:53Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/VmpLTfvTc9G5Z_CO-HqQKdDgiVj4YuXaXUHrUDd_0k8wb04FG_iKVEE9pYAmjiPBs4lpZZj7_w=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/VmpLTfvTc9G5Z_CO-HqQKdDgiVj4YuXaXUHrUDd_0k8wb04FG_iKVEE9pYAmjiPBs4lpZZj7_w=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/VmpLTfvTc9G5Z_CO-HqQKdDgiVj4YuXaXUHrUDd_0k8wb04FG_iKVEE9pYAmjiPBs4lpZZj7_w=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Badminton Europe",
+          "description": "Welcome to Badminton Europe Confederation's Official YouTube Channel where we bring to you delayed streaming and interviews of our major events on our calendar such as the European Championships and the tournaments of the Badminton Europe Circuit. Follow us on www.badmintoneurope.com"
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUKKVmSr0-nktD2CFXATNkYw"
+        }
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "i9QVFI6plPT1kvr5FLUZrqpXbFc",
+      "id": "UCYpz3DqW5cqmvw1XjJiatfQ",
+      "snippet": {
+        "title": "Badminton Oceania",
+        "description": "Welcome to the official YouTube channel of Badminton Oceania.\n\nWe are the continental governing body for badminton across Oceania, represented by 18 member associations and working under the flagship of Badminton World Federation.\n\nHere you'll find tournament coverage, athlete stories, and tips for players. \n\nSubscribe to follow our players, catch up on competitions, and stay connected with badminton across Oceania.\n\n📍 Follow us:\nInstagram: @Badmintonoceania\nFacebook: @BOC.badminton\nWebsite: badmintonoceania.org\n",
+        "customUrl": "@badmintonoceaniatv",
+        "publishedAt": "2011-06-20T00:12:52Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/MGrpleurmEwBTjJGLTF6N6_fXk9j9ASFmOxJm0QAgtUkQWGOHZ751e6xFBRWMJJaiAjvdgDWcg=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/MGrpleurmEwBTjJGLTF6N6_fXk9j9ASFmOxJm0QAgtUkQWGOHZ751e6xFBRWMJJaiAjvdgDWcg=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/MGrpleurmEwBTjJGLTF6N6_fXk9j9ASFmOxJm0QAgtUkQWGOHZ751e6xFBRWMJJaiAjvdgDWcg=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Badminton Oceania",
+          "description": "Welcome to the official YouTube channel of Badminton Oceania.\n\nWe are the continental governing body for badminton across Oceania, represented by 18 member associations and working under the flagship of Badminton World Federation.\n\nHere you'll find tournament coverage, athlete stories, and tips for players. \n\nSubscribe to follow our players, catch up on competitions, and stay connected with badminton across Oceania.\n\n📍 Follow us:\nInstagram: @Badmintonoceania\nFacebook: @BOC.badminton\nWebsite: badmintonoceania.org\n"
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUYpz3DqW5cqmvw1XjJiatfQ"
+        }
+      }
+    }
+  ]
+}
