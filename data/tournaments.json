@@ -1,0 +1,32 @@
+[
+  {
+    "name": "VICTOR Denmark Open 2026",
+    "tier": "super_750",
+    "city": "Odense",
+    "country": "DEN",
+    "timezone": "Europe/Copenhagen",
+    "startDate": "2026-10-13",
+    "endDate": "2026-10-18",
+    "source": "Dates: BWF TV video 'VICTOR Denmark Open 2026 | 13 - 18 October'. Tier and city: to verify against bwfbadminton.com."
+  },
+  {
+    "name": "YONEX French Open 2026",
+    "tier": "super_750",
+    "city": "Paris",
+    "country": "FRA",
+    "timezone": "Europe/Paris",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-25",
+    "source": "Dates: BWF TV video 'YONEX French Open 2026 | 20 - 25 October'. Tier and city: to verify against bwfbadminton.com."
+  },
+  {
+    "name": "HYLO Open 2026",
+    "tier": "super_500",
+    "city": "Saarbrücken",
+    "country": "GER",
+    "timezone": "Europe/Berlin",
+    "startDate": "2026-10-27",
+    "endDate": "2026-11-01",
+    "source": "Dates: BWF TV video 'HYLO Open 2026 | 27 October - 1 November'. Tier and city: to verify against bwfbadminton.com."
+  }
+]
